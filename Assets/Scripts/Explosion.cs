@@ -18,11 +18,10 @@ public class Explosion : MonoBehaviour
             }
         }
 
-        // Добавьте визуальные или звуковые эффекты взрыва здесь
         Debug.Log("Взрыв произошёл!");
     }
 
-    // Например, вызвать взрыв по нажатию клавиши E
+    // вызвать взрыв по нажатию клавиши E
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))

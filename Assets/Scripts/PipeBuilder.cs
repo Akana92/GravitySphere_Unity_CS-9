@@ -40,8 +40,6 @@ public class PipeBuilder : MonoBehaviour
             {
                 renderer.material = pipeMaterial;
             }
-
-            // Убедитесь, что коллайдер присутствует (по умолчанию добавляется)
         }
 
         // Создание плоского пола внутри трубы
@@ -56,7 +54,5 @@ public class PipeBuilder : MonoBehaviour
         {
             floorRenderer.material = floorMaterial;
         }
-
-        // При необходимости, добавьте Collider к полу (уже присутствует)
     }
 }

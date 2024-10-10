@@ -10,7 +10,7 @@ public class Pocket : MonoBehaviour
     {
         if (other.CompareTag("BilliardBall"))
         {
-            // Вы можете добавить визуальные эффекты или звуки здесь
+            
             if (pocketEffect != null)
             {
                 Instantiate(pocketEffect, other.transform.position, Quaternion.identity);
