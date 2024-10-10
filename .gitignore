@@ -1,0 +1,33 @@
+# Unity specific
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Mm]emoryCaptures/
+
+# Ignore asset meta data, project settings and other generated files
+/Assets/**/*.meta
+/ProjectSettings/
+/UserSettings/
+
+# Visual Studio
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# OS generated files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
